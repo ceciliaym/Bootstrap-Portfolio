@@ -1,0 +1,77 @@
+#ceci{
+    float: left;
+}
+
+.panel-default {
+        width: 270px;
+        text-align: center;
+        height: 140px;
+    
+    }
+
+body {
+    background-image: url(images/blue.png)
+}
+
+.col-md-8 {
+    background-color: white;
+}
+
+.page-footer {
+    background-color: #666666;
+    text-align: center;
+    height: 80px;
+    border-top: 10px solid #4aaaa5;
+}
+
+#footer {
+    padding: 20px;
+    color: #777777;
+    
+}
+
+.navbar-brand{
+    background-color: #4aaaa5;
+    color: white;
+}
+
+h1 {
+    color: #4aaaa5;
+    font-family: Times New Roman;
+    border-bottom: solid #dddddd;
+}
+
+p { 
+    line-height: 1.6;
+    color: #777777;
+    font-family: Helvetica Neue;
+}
+
+.navbar-default{
+    border-bottom: solid #dddddd;;
+}
+
+.li{
+    border-bottom: solid #dddddd; 
+}
+
+.done h3{
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 0;
+    font-weight: 300;
+    line-height: 30px;
+    color: #fff;
+    text-align: center;
+    background: #4aaaa5;
+    border-bottom: 0; 
+}
+
+@media screen and (max-width: 768px) {
+    .panel-default {
+        margin-top: 15px;
+    }
+
+}
